@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-image: url(images/pattern-background-extended.png);
+    background-repeat: repeat-y;
     background-size: 50%;
     font-family: 'Nunito', sans-serif;
 }
@@ -53,4 +54,46 @@ body{
 
 .arrows > a:hover{
     color:rgba(206,39,95,255);
+}
+
+@media screen and (max-device-width:1023px){
+    body{
+        background-size: 150%;
+    }
+
+    iframe{
+        width: 21%;
+    }
+
+    .containerMain{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item2{
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        padding:0;
+    }
+
+    .arrows{
+        padding-top: 10%;
+        font-size: 1rem;
+        margin-right: 25%;
+        display: flex;
+        flex-direction: row-reverse;
+        gap:1rem;
+    }
+
+}
+
+@media screen and (min-device-width:821px) and (max-device-width:1023px){
+
+}
+
+@media screen and (min-device-width:1024px) and (max-device-width:1300px){
+
 }

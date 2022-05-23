@@ -72,12 +72,28 @@ h1{
 
 .btn{
     width: 100.5%;
-    height: 4rem;
+    height: 3.5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     background-color: rgba(206,39,95,255);
     font-size: 1.5rem;
     color: white;
+    margin-bottom: 2%;
+}
+
+.returnLink{
+    text-align: right;
+    margin-top: 10%;
+}
+
+.linkR{
+    border-radius: 1rem;
+    padding: 0% 2%;
+    text-decoration: none;
+    border: rgba(206,39,95,255);
+    border-style: solid;
+    color: rgba(206,39,95,255);
+    background-color: rgb(245, 173, 197);
 }
 
 @media screen and (max-device-width:820px){

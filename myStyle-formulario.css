@@ -63,7 +63,7 @@ h1{
 }
 
 .msj{
-    height: 25rem;
+    height: 20em;
     resize: none;
     overflow: hidden;
     font-family: 'Nunito', sans-serif;
@@ -82,47 +82,89 @@ h1{
 
 @media screen and (max-device-width:820px){
     body{
-        margin: 0;
-        width: 100vw;
-        height: 100vh;
-        background-image: none;
-        background-color: rgba(178,196,220,255);
+        background-size: 150%;
     }
+    
+    h1{
+        font-size: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
     .containerMain{
         background-image: none;
-        width: 100vw;
-        height: 100vh;
+        height: auto;
     }
+    
     .container2{
-        margin: 0;
-        width: 85%;
-    }
-
-    .container3{
-        margin: 0;
-    }
-    
-    .msj{
-        height: 20rem; 
-    }
-    
-    .btn{
         width: 100%;
-        height: 4rem;
     }
-}
-
-@media screen and (min-device-width:821px) and (max-device-width:1024px){
-    .containerMain{
-        width: 100vw;
-        height: 100vh;
+    
+    .container3{
+        width: 100%;
     }
-
-    .container2{
-        width: 50%;
+    
+    .item{
+        height: 100%;
     }
-
     .msj{
-        height: 15rem;
+        height: 20em;
     }
 }
+@media screen and (min-device-width:821px) and (max-device-width:1023px){
+    body{
+        background-size: 150%;
+    }
+    
+    h1{
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .containerMain{
+        background-image: none;
+        height: auto;
+    }
+    
+    .container2{
+        width: 100%;
+    }
+    
+    .container3{
+        width: 100%;
+    }
+    
+    .item{
+        font-size: 2rem;
+        height: 100%;
+    }
+    .msj{
+        height: 25em;
+    }
+}
+
+@media screen and (min-device-width:1024px) and (max-device-width:1300px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .containerMain{
+        background-size: 120%;
+    }
+    
+    .container2{
+        margin: 2%;
+        width: 40%;
+    }
+    
+    .container3{
+        width: 100%;
+    }
+    
+    .msj{
+        height: 15em;
+    }
+}
+
+
